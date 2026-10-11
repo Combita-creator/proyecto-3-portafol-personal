@@ -44,7 +44,6 @@ header {
     color: var(--header-text);
     padding: 20px;
     text-align: center;
-    letter-spacing: 1px;
 }
 
 h2 {
