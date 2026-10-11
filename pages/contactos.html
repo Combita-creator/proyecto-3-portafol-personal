@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Cv con paginas">
     <meta property="og:title" content="CV con paginas">
     <meta property="og:description" content="Cv con paginas">
-    <meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiomdR-IUrfdJH8LdxcLRVloBBEEiRqzirXUHLtBpHCUQtKhyphenhyphentJ_E8-VNI6B5BRiUVXPC-n288pUNRX5QH9K2QOa7dctwJhCQs0l07fIOYgoOs9xORdSghfnP_c9oMGdWN9sqpoUJYBx4pXRlRW_frcy0LSZQxUCY0lUB-VyK5BWsj4NY0vpgo0WhTLJxc/s1600/backyardigans%20Pablo%20Personaje%20010.png">
+    <meta property="og:image"
+        content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiomdR-IUrfdJH8LdxcLRVloBBEEiRqzirXUHLtBpHCUQtKhyphenhyphentJ_E8-VNI6B5BRiUVXPC-n288pUNRX5QH9K2QOa7dctwJhCQs0l07fIOYgoOs9xORdSghfnP_c9oMGdWN9sqpoUJYBx4pXRlRW_frcy0LSZQxUCY0lUB-VyK5BWsj4NY0vpgo0WhTLJxc/s1600/backyardigans%20Pablo%20Personaje%20010.png">
     <meta property="og:url" content="https://combita-creator.github.io/proyecto-2-web-basica/">
     <link rel="icon" type="image/x-icon" href="../bodoque.ico">
+    <link rel="stylesheet" href="../assets/css/contacto.css">
     <title>CV contacto</title>
 </head>
+
 <body>
     <header>
         <p>Dayan Leonel Montañez Combita</p>
@@ -25,33 +29,42 @@
         </nav>
 
         <h1>Contactame</h1>
-    </header>    
+    </header>
     <main>
+        <div class="contenedor-contacto">
+            <form action="contactos.html" method="post">
 
-        <form action="contactos.html" method="post">
-            <div>
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-            </div>
-            <div>
-            <label for="email">Correo electrónico:</label>
-            <input type="email" id="email" name="email" required>
-            </div>
-            <div>
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-            </div>
+                <div>
 
-            <button type="submit">Enviar</button>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
 
-        </form>
+                </div>
+                <div>
+
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+
+                </div>
+                <div>
+
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                </div>
+
+                <button type="submit">Enviar</button>
+
+            </form>
+        </div>
     </main>
-    
-    
+
+
     <footer>
         <p>© 2026 Dayan Leonel Montañez Combita. Todos los derechos reservados.</p>
     </footer>
 
 
 </body>
+
 </html>
